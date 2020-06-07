@@ -1,0 +1,83 @@
+
+/* Section 1 Start */
+
+section .content .img-mockup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    width: 100%;
+
+    margin-top: 80px;
+}
+
+section .items-grid li {
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.items-grid li img {
+    margin-right: 70%;
+}
+
+.items-grid li h1 {
+    color: var(--dark-cyan);
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+/* Section 1 End */
+
+/* Section section-all Start */
+
+section .content .section-all {
+    margin-top: 7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: red; */
+}
+
+section .container-description {
+    width: 480px;
+    
+    margin: 0 auto;
+}
+
+section .section-all h1 {
+    color: var(--dark-cyan);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+
+    margin-bottom: 8px;
+}
+
+section .section-all p {
+    font-size: 16px;
+}
+
+section .section-all img {
+    width: 500px;
+
+    margin: 0 40px;
+}
+
+/* Section section-all End */
+
+
+
+
+

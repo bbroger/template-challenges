@@ -1,0 +1,35 @@
+
+section .final-page {
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* background-color: red; */
+}
+
+.final-page h1 {
+    color: var(--dark-cyan);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.final-page a {
+    padding: 20px 60px;
+
+    border-radius: 100px;
+
+    box-shadow: 0px 12px 20px rgb(189, 186, 186);
+
+    color: var(--clear-ice);
+    font-weight: bold;
+
+    background-color: var(--pink-color);
+
+    z-index: 1;
+}

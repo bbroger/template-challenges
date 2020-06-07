@@ -1,0 +1,181 @@
+
+/* Menor que 600px ele faz essas configurações */
+@media (max-width:600px) {
+    header .box-header {
+        margin-top: 40px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header .box-header img {
+        margin-bottom: 20px;
+    }
+    section .box-page-home {
+        height: 100vh;
+    }
+    .box-page-home h2 {
+        font-size: 30px;
+
+        text-align: center;
+    }
+    section .description {
+        width: 250px;
+
+        font-size: 16px;
+    }
+    .description a {
+        width: 20%;
+
+        padding: 20px 40px;
+
+        font-size: 16px;
+    }
+    section .content .img-mockup {
+        display: none;
+    }
+    section .items-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 130px;
+    }
+    section .items-grid li {
+        margin-bottom: 60px;
+    }
+    section .content .section-all {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 1em;
+    }
+    section .container-description {
+        width: 250px;
+    }
+    section .section-all h1 {
+        text-align: center;
+    }
+    section .section-all p {
+        text-align: center;
+
+        margin-bottom: 30px;
+    }
+    section .section-all img {
+        width: 250px;
+
+        margin-bottom: 40px;
+    }
+    .final-page h1 {
+        font-size: 35px;
+
+        text-align: center;
+    }
+    .final-page a {
+        padding: 20px 20px;
+    }
+    footer span {
+        height: 820px;
+        width: 100vw;
+    }
+    footer span .footer-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+    footer span .footer-grid img {
+        margin-top: 400px;
+    }
+    footer span .footer-grid li h1 {
+        margin-top: 30px;
+    }
+    footer span .footer-grid li input[type=text] {
+        width: 200px;
+    height: 30px;
+    }
+}
+
+/* Menor que 1024px ele faz essas configurações */
+@media (max-width:1024px) {
+    .box-page-home h2 {
+        font-size: 40px;
+
+        text-align: center;
+    }
+    section .box-page-home {
+        height: 60vh;
+    }
+    section .description {
+        width: 500px;
+
+        font-size: 16px;
+    }
+    .description a {
+        width: 20%;
+
+        padding: 20px 40px;
+
+        font-size: 16px;
+    }
+    section .content .img-mockup {
+        display: none;
+    }
+    section .content .section-all {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 6em;
+    }
+    section .container-description {
+        width: 400px;
+    }
+    section .section-all h1 {
+        text-align: center;
+    }
+    section .section-all p {
+        text-align: center;
+
+        margin-bottom: 30px;
+    }
+    section .section-all img {
+        width: 250px;
+
+        margin-bottom: 40px;
+    }
+    .final-page h1 {
+        font-size: 40px;
+
+        text-align: center;
+    }
+    .final-page a {
+        padding: 20px 50px;
+    }
+    footer span {
+        height: 820px;
+        width: 100vw;
+    }
+    footer span .footer-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+    footer span .footer-grid img {
+        margin-top: 400px;
+    }
+    footer span .footer-grid li h1 {
+        margin-top: 30px;
+    }
+    footer span .footer-grid li input[type=text] {
+        width: 300px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,108 @@
+
+/*Header Start */
+
+header {
+    height: 100%;
+
+    margin-top: 20px;
+
+    /*background-color: green;*/
+}
+
+header .box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .box-header img {
+    width: 170px;
+
+    cursor: pointer;
+}
+
+header .box-header a {
+    width: 100px;
+    height: 40px;
+
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 14px;
+    color: var(--pink-color);
+
+    border: 2px solid var(--pink-color);
+
+    background-color: var(--clear-ice);
+}
+
+header .box-header a:hover {
+    background-color: var(--pink-color);
+
+    color: var(--clear-ice);
+
+    transition: 2s;
+}
+
+/* Header end */
+
+/* Description page-home Start */
+
+section .box-page-home  {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-page-home h2 {
+    color: var(--dark-cyan);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+section .description {
+    width: 470px;
+
+    text-align: center;
+}
+
+.description p {
+    color: var(--dark-cyan);
+
+    font-size: 16px;
+
+    margin-bottom: 50px;
+}
+
+.description a {
+    padding: 20px 60px;
+
+    border-radius: 100px;
+
+    box-shadow: 0px 12px 20px rgb(189, 186, 186);
+
+    color: var(--clear-ice);
+    font-weight: bold;
+
+    background-color: var(--pink-color);
+
+    z-index: 1;
+}
+
+/* Description page-home End */
+
+
+
+
+
+
+

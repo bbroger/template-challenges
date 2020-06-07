@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --pink-color: hsl(322, 100%, 66%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --clear-ice: hsl(207, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: var(--clear-ice);
+}
+
+/* Classes Auxiliares */
+
+.content {
+    width: 70%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    /* background-color: darkgoldenrod;  */
+}
