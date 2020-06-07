@@ -1,7 +1,53 @@
 
-/* Menor que 600px ele faz essas configurações */
-@media (max-width:600px) {
+@media (max-width:420px) {
     header .box-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header .box-header img {
+        margin-bottom: 10px;
+    }
+    header .box-header a {
+        height: 30px;
+
+        font-size: 12px;
+    }
+    .box-page-home h2 {
+        font-size: 30px;
+
+        text-align: center;
+    }
+    .description p {
+        width: 200px;
+
+        margin: 0 auto;
+
+        font-size: 14px;
+
+        margin-bottom: 40px;
+    }
+    .description a {
+        padding: 10px 15px;
+
+        margin-top: 20px;
+
+        font-size: 14px;
+    }
+    section .content .img-mockup {
+        display: none;
+    }
+    section .items-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        margin-top: 0;
+    }
+    section .items-grid li {
+        margin-bottom: 80px;
+    }
+    section .content .section-all {
         margin-top: 40px;
 
         display: flex;
@@ -9,76 +55,42 @@
         flex-direction: column;
         justify-content: center;
     }
-    header .box-header img {
+    section .container-description {
+        width: 200px;
+
+        text-align: center;
+    }
+    section .section-all h1 {
+        margin-top: 40px;
+
+        font-size: 20px;
+    }
+    section .section-all p {
+        font-size: 14px;
+
         margin-bottom: 20px;
     }
-    section .box-page-home {
-        height: 100vh;
+    section .section-all img {
+        width: 200px;
+
+        margin-top: 40px;
     }
-    .box-page-home h2 {
+    .final-page h1 {
         font-size: 30px;
 
         text-align: center;
     }
-    section .description {
-        width: 250px;
-
-        font-size: 16px;
-    }
-    .description a {
-        width: 20%;
-
-        padding: 20px 40px;
-
-        font-size: 16px;
-    }
-    section .content .img-mockup {
-        display: none;
-    }
-    section .items-grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        margin-top: 130px;
-    }
-    section .items-grid li {
-        margin-bottom: 60px;
-    }
-    section .content .section-all {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-
-        margin-top: 1em;
-    }
-    section .container-description {
-        width: 250px;
-    }
-    section .section-all h1 {
-        text-align: center;
-    }
-    section .section-all p {
-        text-align: center;
-
-        margin-bottom: 30px;
-    }
-    section .section-all img {
-        width: 250px;
-
-        margin-bottom: 40px;
-    }
-    .final-page h1 {
-        font-size: 35px;
-
-        text-align: center;
-    }
     .final-page a {
-        padding: 20px 20px;
+        padding: 10px 15px;
+
+        font-size: 14px;
+    }
+    footer span .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     footer span {
-        height: 820px;
+        height: 100vh;
         width: 100vw;
     }
     footer span .footer-grid {
@@ -90,75 +102,240 @@
     }
     footer span .footer-grid img {
         margin-top: 400px;
+    }
+}
+
+@media (max-width:600px) {
+    header .box-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .box-header img {
+        margin-bottom: 10px;
+    }
+    .box-page-home h2 {
+        margin-top: 60px;
+
+        font-size: 30px;
+
+        text-align: center;
+    }
+    .description p {
+        width: 250px;
+
+        margin: 0 auto;
+
+        font-size: 16px;
+
+        margin-bottom: 60px;
+    }
+    .description a {
+        padding: 15px 35px;
+
+        margin-top: 20px;
+
+        font-size: 14px;
+    }
+    section .content .img-mockup {
+        display: none;
+    }
+    section .items-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        margin-top: 80px;
+    }
+    section .items-grid li img {
+        margin-top: 80px;
+    }
+    section .content .section-all {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section .section-all h1 {
+        margin-top: 30px;
+
+        font-size: 20px;
+    }
+    section .section-all p {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+    section .section-all img {
+        width: 300px;
+
+        margin-top: 40px;
+    }
+    .final-page h1 {
+        font-size: 40px;
+
+        text-align: center;
+    }
+    .final-page a {
+        padding: 15px 35px;
+
+        font-size: 14px;
+    }
+    footer span .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer span {
+        height: 100vh;
+        width: 100vw;
+    }
+    footer span .footer-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+    footer span .footer-grid img {
+        margin-top: 400px;
+    }
+}
+
+@media (max-width:900px) {
+    .box-page-home h2 {
+        margin-top: 80px;
+
+        text-align: center;
+    }
+    .description p {
+        margin: 0 auto;
+
+        font-size: 16px;
+
+        margin-bottom: 40px;
+    }
+    section .content .img-mockup {
+        display: none;
+    }
+    section .items-grid {
+        gap: 50px;
+
+        margin-top: 0;
+    }
+    .items-grid li img {
+        margin-top: 200px;
+    }
+    section .items-grid li {
+        margin-bottom: 80px;
+    }
+    section .container-description {
+        width: 200px;
+
+        text-align: center;
+    }
+    section .section-all h1 {
+        margin-top: 30px;
+
+        font-size: 20px;
+    }
+    section .section-all p {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+    section .section-all img {
+        width: 300px;
+
+        margin-top: 40px;
+    }
+    .final-page h1 {
+        text-align: center;
+    }
+    footer span .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer span {
+        height: 700px;
+        width: 100vw;
+    }
+    footer span .footer-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+    footer span .footer-grid img {
+        margin-top: 300px;
     }
     footer span .footer-grid li h1 {
         margin-top: 30px;
     }
     footer span .footer-grid li input[type=text] {
         width: 200px;
-    height: 30px;
+        height: 30px;
+    }
+    footer span .footer-grid li input[type=submit] {
+        margin-bottom: 20px;
     }
 }
 
-/* Menor que 1024px ele faz essas configurações */
-@media (max-width:1024px) {
+@media (max-width:1440px) {
     .box-page-home h2 {
-        font-size: 40px;
+        margin-top: 80px;
 
         text-align: center;
     }
-    section .box-page-home {
-        height: 60vh;
-    }
-    section .description {
-        width: 500px;
+    .description p {
+        margin: 0 auto;
 
         font-size: 16px;
-    }
-    .description a {
-        width: 20%;
-
-        padding: 20px 40px;
-
-        font-size: 16px;
-    }
-    section .content .img-mockup {
-        display: none;
-    }
-    section .content .section-all {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-
-        margin-top: 6em;
-    }
-    section .container-description {
-        width: 400px;
-    }
-    section .section-all h1 {
-        text-align: center;
-    }
-    section .section-all p {
-        text-align: center;
-
-        margin-bottom: 30px;
-    }
-    section .section-all img {
-        width: 250px;
 
         margin-bottom: 40px;
     }
-    .final-page h1 {
-        font-size: 40px;
+    section .content .img-mockup {
+        margin-top: 150px;
+    }
+    section .items-grid {
+        gap: 50px;
+
+        margin-top: 0;
+    }
+    .items-grid li img {
+        margin-top: 200px;
+    }
+    section .items-grid li {
+        margin-bottom: 80px;
+    }
+    section .container-description {
+        width: 200px;
 
         text-align: center;
     }
-    .final-page a {
-        padding: 20px 50px;
+    section .section-all h1 {
+        margin-top: 30px;
+
+        font-size: 20px;
+    }
+    section .section-all p {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+    section .section-all img {
+        width: 300px;
+
+        margin-top: 40px;
+    }
+    .final-page h1 {
+        text-align: center;
+    }
+    footer span .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     footer span {
-        height: 820px;
+        height: 700px;
         width: 100vw;
     }
     footer span .footer-grid {
@@ -169,13 +346,21 @@
         margin-top: 20px;
     }
     footer span .footer-grid img {
-        margin-top: 400px;
+        margin-top: 300px;
     }
     footer span .footer-grid li h1 {
         margin-top: 30px;
     }
     footer span .footer-grid li input[type=text] {
-        width: 300px;
+        width: 200px;
         height: 30px;
     }
+    footer span .footer-grid li input[type=submit] {
+        margin-bottom: 20px;
+    }
 }
+
+
+
+
+
